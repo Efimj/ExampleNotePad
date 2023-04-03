@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:theme="@style/AppTheme.Overlay"
+>
+        <FrameLayout
+                android:id="@+id/fragment_container_page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        <LinearLayout
+                android:id="@+id/linearLayoutMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/my_fragment"
+                    android:name="com.example.examplenotepad.BottomMainAppMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout="@layout/fragment_bottom_menu_button"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </LinearLayout>
+    <TextView
+            android:text="© Бобров Юхим Анатолійович 611пст"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView" tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="16dp" android:textColor="@color/gray_600"
+            android:fontFamily="@font/roboto" tools:ignore="MissingConstraints"/>
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--            android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" app:navGraph="@navigation/mu_nav" app:defaultNavHost="true"-->
+<!--            android:id="@+id/fragmentContainerView" app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.5"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

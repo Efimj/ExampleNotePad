@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.Overlay">
+
+    <LinearLayout
+            android:id="@+id/bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonNotes"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:text="Notes"
+                android:stateListAnimator="@null"
+                android:background="@drawable/menu_button_selector"
+                style="@style/MenuButtonStyle"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonArchive"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:text="Archive"
+                android:stateListAnimator="@null"
+                android:background="@drawable/menu_button_selector"
+                style="@style/MenuButtonStyle"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonBasket"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="8dp"
+                android:text="Basket"
+                android:stateListAnimator="@null"
+                android:background="@drawable/menu_button_selector"
+                style="@style/MenuButtonStyle"
+        />
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonSettings"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Settings"
+                android:stateListAnimator="@null"
+                android:background="@drawable/menu_button_selector"
+                style="@style/MenuButtonStyle"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<resources>
+    <style name="Widget.Theme.NotepadApplication.MyView" parent="Theme.Material3.Light.NoActionBar">
+        <!--        цвета для статус бара (сверху)-->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#E3E3E3</item>
+        <!--        цвета навигационного бара (снизу)-->
+        <item name="android:navigationBarColor">#E3E3E3</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+</resources>

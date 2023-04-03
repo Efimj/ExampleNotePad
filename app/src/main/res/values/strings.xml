@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NotepadApplication</string>
+    <string name="settings">Settings</string>
+    <string name="dark">Dark</string>
+    <string name="application_theme">Application theme</string>
+    <string name="save_all_notes_locally">Save all notes locally</string>
+    <string name="save">Save</string>
+    <string name="upload">Upload</string>
+    <string name="upload_notes">Upload notes</string>
+    <string name="cloud_storage">Cloud storage</string>
+    <string name="connected">Connected</string>
+    <string name="information">Information</string>
+    <string name="settingsInformation">All your information is stored locally on your device, clearing your browsing
+        data may result in losing all your data. Therefore, before resetting, save the file with your data so as not to
+        lose them.
+    </string>
+    <string name="menu">Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

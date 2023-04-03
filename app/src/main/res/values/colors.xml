@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+
+    <color name="text_color">#151515</color>
+    <color name="background">#FAFAFD</color>
+    <color name="stroke_color">#D2D2D2</color>
+    <color name="ripple_color">#E3E3E3</color>
+    <color name="background_tint_button">#191919</color>
+
+    <color name="purple">#423FFF</color>
+</resources>

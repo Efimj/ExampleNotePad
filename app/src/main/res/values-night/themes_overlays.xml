@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppTheme.Overlay" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="materialButtonStyle">@style/ButtonStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:tint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+</resources>
+
